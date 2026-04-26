@@ -5,7 +5,9 @@ import os
 app = Flask(__name__)
 
 def load_data():
-    with open('data.json', 'r', encoding='utf-8') as f:
+    base_path = os.path.dirname(__file__)
+    data_path = os.path.join(base_path, 'data.json')
+    with open(data_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 @app.route('/')
@@ -15,7 +17,8 @@ def index():
 
 @app.route('/download-cv')
 def download_cv():
-    path = "CV__jeumou_ngongang_Laurelle_maiva.pdf"
+    base_path = os.path.dirname(__file__)
+    path = os.path.join(base_path, "CV__jeumou_ngongang_Laurelle_maiva.pdf")
     return send_file(path, as_attachment=True)
 
 @app.route('/api/data')
