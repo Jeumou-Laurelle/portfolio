@@ -67,6 +67,8 @@ nav {
     color: var(--primary);
     cursor: pointer;
     transition: var(--transition);
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .logo:hover {
@@ -584,7 +586,14 @@ nav {
     .hero-grid, .exp-skills-grid, .project-grid, .skill-grid {
         grid-template-columns: 1fr;
     }
-    .hero h1 { font-size: 3rem; }
+    .hero h1 { 
+        font-size: 3.5rem; 
+        letter-spacing: -1px;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
     
     .menu-toggle {
         display: flex;
