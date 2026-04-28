@@ -1,16 +1,16 @@
 :root {
-    --primary: #10b981;
-    --primary-dark: #059669;
-    --secondary: #22c55e;
-    --dark: #020617;
-    --dark-alt: #0b1121;
-    --light: #f8fafc;
-    --gray: #94a3b8;
-    --slate-300: #cbd5e1;
-    --glass: rgba(15, 23, 42, 0.8);
-    --glass-border: rgba(255, 255, 255, 0.05);
+    --primary: #059669; /* Slightly darker Emerald */
+    --primary-dark: #064e3b;
+    --secondary: #10b981;
+    --dark: #0a0a0a; /* True Black/Dark Gray */
+    --dark-alt: #171717;
+    --light: #fafafa;
+    --gray: #a3a3a3;
+    --slate-300: #d4d4d4;
+    --glass: rgba(10, 10, 10, 0.9);
+    --glass-border: rgba(255, 255, 255, 0.08);
     --container: 1100px;
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 * {
@@ -20,8 +20,10 @@
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', 'Outfit', sans-serif;
     background-color: var(--dark);
+    background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.02) 1px, transparent 0);
+    background-size: 40px 40px;
     color: var(--light);
     line-height: 1.6;
     overflow-x: hidden;
@@ -181,9 +183,12 @@ nav {
 }
 
 .hero h1 {
-    font-size: 4.5rem;
-    line-height: 1.1;
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .hero h2 {
@@ -237,7 +242,7 @@ nav {
 
 .image-frame {
     position: relative;
-    border-radius: 40px;
+    border-radius: 12px; /* Sharper corners */
     overflow: hidden;
     transform: rotate(3deg);
     transition: var(--transition);
@@ -436,7 +441,7 @@ nav {
     background: var(--dark-alt);
     border: 1px solid var(--glass-border);
     padding: 2rem;
-    border-radius: 20px;
+    border-radius: 12px;
     transition: var(--transition);
 }
 
@@ -463,9 +468,10 @@ nav {
 }
 
 .tag {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
     padding: 0.4rem 1.2rem;
-    border-radius: 50px;
+    border-radius: 4px; /* Square tags */
     font-size: 0.85rem;
     color: var(--gray);
     transition: var(--transition);
