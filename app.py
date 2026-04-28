@@ -18,7 +18,7 @@ def index():
 @app.route('/download-cv')
 def download_cv():
     base_path = os.path.dirname(__file__)
-    path = os.path.join(base_path, "CV__jeumou_ngongang_Laurelle_maiva.pdf")
+    path = os.path.join(base_path, "CV_Ami.pdf")
     return send_file(path, as_attachment=True)
 
 @app.route('/api/data')

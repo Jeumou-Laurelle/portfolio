@@ -1,90 +1,39 @@
 {
   "profile": {
-    "name": "Jeumou Laurelle",
-    "title": "Développeuse Junior (Full-Stack) et Administratrice reseaux",
-    "bio": "Diplomee d'une licence en genie logiciel, et etudiante en Systeme informatique et reseaux a l'Institut Universitaire de Grandes Ecoles de Tropiques (IUGET), passionnee par l'informatique, le developpement et l'exploitation des reseaux mobiles.",
-    "email": "jeumoulaurel@gmail.com",
-    "phone": "654 90 36 81",
+    "name": "[NOM DE VOTRE AMI]",
+    "title": "[TITRE PROFESSIONNEL]",
+    "bio": "Diplômé(e) en [DOMAINE D'ÉTUDES], passionné(e) par [VOTRE PASSION/MÉTIER].",
+    "email": "email@exemple.com",
+    "phone": "+237 ...",
     "location": "Douala, Cameroun",
     "socials": {
-      "github": "https://github.com/Jeumou-Laurelle",
-      "linkedin": "https://linkedin.com/in/Laurelle ngongang",
-      "whatsapp": "https://wa.me/237654903681"
+      "github": "https://github.com/",
+      "linkedin": "https://linkedin.com/in/",
+      "whatsapp": "https://wa.me/"
     }
   },
   "skills": {
-    "Frontend": ["HTML5", "CSS3", "JavaScript", "Flask", "Bootstrap", "jQuery"],
-    "Backend": ["PHP", "Python (Flask)", "MySQL"],
-    "Outils": ["Github", "VS Code", "Canva", "Flask", "Vercel", "Wordpress"]
+    "Frontend": ["HTML5", "CSS3", "JavaScript"],
+    "Backend": ["Python", "PHP"],
+    "Outils": ["Git", "VS Code"]
   },
   "experience": [
     {
-      "company": "Huawei Technologie Compagny Cameroon Ltd",
-      "role": "Support B2C et Développeuse",
-      "period": "Fev. 2026 - Présent",
+      "company": "[NOM DE L'ENTREPRISE]",
+      "role": "[VOTRE RÔLE]",
+      "period": "[PÉRIODE]",
       "description": [
-        "Pilotage du cycle de vie des incidents B2C selon les bonnes pratiques ITIL",
-        "Coordination operationnelle entre equipes terrain et support techniques",
-        "Reporting et suivi de performance KPI, SLA, tableaux de bord",
-        "Automatisation des processus de gestion incidents",
-        "Detection et analyse des Cells Down."
-      ]
-    },
-    {
-      "company": "Cemac Track",
-      "role": "Développeuse (Stage)",
-      "period": "Sept 2025 - Dec 2025",
-      "description": [
-        "Conception et developpement d'une application de gestion de cryptomonnaies",
-        "Creation d'une plateforme de gestion dediee aux agences de mannequin."
-
-      ]
-    },
-    {
-      "company": "Kaiidou Lab Sarl",
-      "role": "Développeuse (Stage)",
-      "period": "Nov 2024 - Juillet 2025",
-      "description": [
-        "Installation des logiciels desktop",
-        "Installation des imprimantes",
-        "Creation d'une application de ticketing avec les langages SPRING BOOT et JAVASCRIPT",
-        "Developpement du site de l'entreprise KAIIDOU avec les langages HTML, CSS, PHPet JAVASCRIPT",
-        "Participation a la conception des applications."
-
-      ]
-    },
-    {
-      "company": "Magrabi Eye Hospital ",
-      "role": "Maintenance et installation des equipements informatiques (Stage)",
-      "period": "juil 2024 - Aout 2024",
-      "description": [
-        "Sertissage de cable reseau",
-        "Pose de cameras de videosurveillance",
-        "Configuration des cameras de videosurveillance."
-      ]
-    },
-     {
-      "company": "Inov Cameroon Sarl",
-      "role": "Developpeuse Web (Stage)",
-      "period": "Juil 2023 - Fev 2024",
-      "description": [
-        "Developpement des sites web avec le langage PHP",
-        "Modelisation UML et conception des bases de donnees"
+        "Description de vos missions 1",
+        "Description de vos missions 2"
       ]
     }
   ],
   "education": [
     {
-      "school": "IUGET",
-      "degree": "Licence Professionnelle en Génie Logiciel",
-      "period": "2024 - 2025",
-      "description": "Spécialisation dans le cycle de vie du logiciel et les architectures web modernes."
-    },
-    {
-      "school": "ISLAPE",
-      "degree": "BTS en Génie Logiciel",
-      "period": "2023 - 2024",
-      "description": "Bases solides en algorithmique, bases de données et développement web."
+      "school": "[NOM DE L'ÉCOLE]",
+      "degree": "[VOTRE DIPLÔME]",
+      "period": "[PÉRIODE]",
+      "description": "Bref résumé de votre formation."
     }
   ],
   "projects": [
