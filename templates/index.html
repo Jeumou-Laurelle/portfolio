@@ -9,7 +9,7 @@
             <h1 class="reveal" style="transition-delay: 0.1s;">{{ profile.name }}</h1>
             <h2 class="reveal" style="transition-delay: 0.2s;">{{ profile.title }}</h2>
             <p class="reveal" style="transition-delay: 0.3s;">{{ profile.bio }}</p>
-            
+
             <div class="social-icons reveal" style="transition-delay: 0.4s;">
                 <a href="{{ profile.socials.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="{{ profile.socials.whatsapp }}" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -23,7 +23,7 @@
         </div>
         <div class="hero-image-wrapper reveal">
             <div class="image-frame">
-                <img src="/static/img/profile.jpeg" alt="{{ profile.name }}">
+                <img src="/static/img/profile.png" alt="{{ profile.name }}">
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                 <h2 class="section-title reveal">Expérience</h2>
                 <p class="section-subtitle reveal">Mon parcours professionnel</p>
                 <div class="underline reveal"></div>
-                
+
                 <div class="timeline">
                     {% for exp in experience %}
                     <div class="timeline-item reveal">
@@ -130,7 +130,8 @@
         <div class="underline reveal"></div>
 
         <h3 class="reveal" style="font-size: 2rem; margin-bottom: 2rem;">Parlons de votre prochain projet</h3>
-        <p class="reveal" style="color: var(--gray); margin-bottom: 3rem;">N'hésitez pas à me contacter pour des collaborations ou des opportunités.</p>
+        <p class="reveal" style="color: var(--gray); margin-bottom: 3rem;">N'hésitez pas à me contacter pour des
+            collaborations ou des opportunités.</p>
 
         <div class="contact-grid">
             <div class="contact-card reveal">
