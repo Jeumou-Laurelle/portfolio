@@ -1,39 +1,64 @@
 {
   "profile": {
-    "name": "[NOM DE VOTRE AMI]",
-    "title": "[TITRE PROFESSIONNEL]",
-    "bio": "Diplômé(e) en [DOMAINE D'ÉTUDES], passionné(e) par [VOTRE PASSION/MÉTIER].",
-    "email": "email@exemple.com",
-    "phone": "+237 ...",
+    "name": "NKENE FRANCK LOIC",
+    "title": "IT Specialist & Software Engineer",
+    "bio": "Titulaire d'une Licence en Génie Logiciel et actuellement en Master SIR à l'IUGET de Douala. Expert en administration, monitoring et sécurité des systèmes d'information au service de projets numériques innovants.",
+    "email": "nkeneloic14@gmail.com",
+    "phone": "693 42 36 85",
     "location": "Douala, Cameroun",
     "socials": {
       "github": "https://github.com/",
-      "linkedin": "https://linkedin.com/in/",
-      "whatsapp": "https://wa.me/"
+      "linkedin": "https://www.linkedin.com/in/nkene-franck-14b3261b5/",
+      "whatsapp": "https://wa.me/237693423685"
     }
   },
   "skills": {
-    "Frontend": ["HTML5", "CSS3", "JavaScript"],
-    "Backend": ["Python", "PHP"],
-    "Outils": ["Git", "VS Code"]
+    "Infrastructure & System": ["Fortigate", "GLPI", "Windows Server 2019", "Zabbix", "Linux", "VMware", "Hyper-V", "Powershell"],
+    "Développement": ["Python", "JavaScript", "ReactJS", "NodeJS", "Odoo", "n8n"],
+    "Certifications": ["Docker", "Git & GitHub", "DevOps", "TCP/IP", "Proxmox VE"]
   },
   "experience": [
     {
-      "company": "[NOM DE L'ENTREPRISE]",
-      "role": "[VOTRE RÔLE]",
-      "period": "[PÉRIODE]",
+      "company": "Golf Transit International Douane",
+      "role": "IT Specialist",
+      "period": "Janv. 2024 - Présent",
       "description": [
-        "Description de vos missions 1",
-        "Description de vos missions 2"
+        "Administration et supervision du parc informatique (Zabbix)",
+        "Gestion des incidents via GLPI et suivi des SLA",
+        "Administration du serveur mail et gestion via cPanel",
+        "Déploiement de systèmes de surveillance CCTV et alarme",
+        "Mise en place de procédures de sauvegarde des données"
+      ]
+    },
+    {
+      "company": "Port Autonome de Douala - DSI",
+      "role": "IT Support",
+      "period": "2023 - 2024",
+      "description": [
+        "Déploiement centralisé de solutions antivirus",
+        "Résolution d'incidents techniques (Support niveau 1 & 2)",
+        "Maintenance préventive et corrective des équipements réseaux"
       ]
     }
   ],
   "education": [
     {
-      "school": "[NOM DE L'ÉCOLE]",
-      "degree": "[VOTRE DIPLÔME]",
-      "period": "[PÉRIODE]",
-      "description": "Bref résumé de votre formation."
+      "school": "IUGET, Douala",
+      "degree": "Master 1 — Systèmes Informatiques & Réseaux (SIR)",
+      "period": "En cours",
+      "description": "Spécialisation en administration système et réseaux."
+    },
+    {
+      "school": "IUGET, Douala",
+      "degree": "Licence en Génie Logiciel",
+      "period": "Juin 2025",
+      "description": "Conception et développement d'applications logicielles."
+    },
+    {
+      "school": "IUGET, Douala",
+      "degree": "BTS en Génie Logiciel",
+      "period": "Juin 2024",
+      "description": "Bases solides en développement et maintenance logicielle."
     }
   ],
   "projects": [
